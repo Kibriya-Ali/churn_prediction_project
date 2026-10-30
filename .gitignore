@@ -1,0 +1,45 @@
+# ==============================
+# Data & Large Files
+# ==============================
+# Ignore all massive raw and processed CSVs to prevent GitHub errors
+data/raw/*
+data/processed/*
+*.csv
+*.zip
+*.7z
+*.gz
+
+# (Optional) Allow placeholder files if you want the folders to exist on GitHub
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==============================
+# Python & Environments
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# ==============================
+# Jupyter Notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE & OS Files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Streamlit & Cache
+# ==============================
+.streamlit/
