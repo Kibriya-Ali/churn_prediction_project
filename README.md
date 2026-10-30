@@ -16,7 +16,7 @@ Instead of relying solely on static demographics, this pipeline processes daily 
 * Integrated **SHAP** values for local interpretability, allowing business teams to see the exact factors driving an individual customer's churn risk.
 * Deployed an interactive **Streamlit** dashboard for live stakeholder risk simulation.
 
-👉 **[Interact with the Live Dashboard Here](https://your-streamlit-url-here.streamlit.app)**
+👉 **[Interact with the Live Dashboard Here](https://churnpredictionproject-2zsfvsuqsgee6tcscpsfk9.streamlit.app)**
 
 ---
 
