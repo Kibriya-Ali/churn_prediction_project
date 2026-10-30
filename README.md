@@ -48,3 +48,15 @@ Accuracy is a flawed metric for imbalanced churn datasets. The model was evaluat
 ```bash
 git clone [https://github.com/yourusername/kkbox-churn-prediction.git](https://github.com/yourusername/kkbox-churn-prediction.git)
 cd kkbox-churn-prediction
+```
+### 2. Initialze py venv & install libraries
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.bat
+pip install -r requirements.txt
+```
+### 3. Run Streamlit app
+```bash
+cd app
+streamlit run app.py
+```
