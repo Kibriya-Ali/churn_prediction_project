@@ -12,7 +12,7 @@ st.markdown("Predict the likelihood of a user canceling their music streaming su
 @st.cache_resource
 def load_model():
     # Adjust path if running from a different directory
-    return joblib.load("D:\Databases\churn-prediction-project\models\lgbm_churn_model.pkl")
+    return joblib.load("models\lgbm_churn_model.pkl")
 
 model = load_model()
 
